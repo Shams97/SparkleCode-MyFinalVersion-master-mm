@@ -71,33 +71,33 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="3"
-        android:textColor="@color/DarkTextColor"
         android:textAlignment="center"
+        android:textColor="@color/DarkTextColor"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintHorizontal_bias="0.189"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.115" />
 
     <TextView
         android:id="@+id/score"
-        android:layout_width="81dp"
-        android:layout_height="37dp"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Point :"
-        android:textSize="21dp"
+        android:text="Point:"
         android:textColor="@color/DarkTextColor"
+        android:textSize="21dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.116" />
 
     <Button
         android:id="@+id/check"
@@ -126,8 +126,8 @@
         android:layout_marginBottom="8dp"
         android:padding="@dimen/text_margin"
         android:text="@string/re_arrange_to_the_bottom_to_print_code_word"
-        android:textColor="@color/textcolor"
         android:textAlignment="center"
+        android:textColor="@color/textcolor"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -135,7 +135,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167" />
+        app:layout_constraintVertical_bias="0.199" />
 
 
     <LinearLayout

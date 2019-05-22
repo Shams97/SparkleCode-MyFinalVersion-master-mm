@@ -33,7 +33,7 @@ Button res,con;
         res.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
+                /* TODO Auto-generated method stub */
                 String url = "https://docs.python.org/3/";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
