@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="55dp"
+    android:layout_marginRight="55dp"
+    android:background="@drawable/roundedinput"
+    android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="@string/ooops_this_is_a_wrong_answer_and_might_cause_you_a_compiler_error"
+                android:textColor="@color/textcolor"
+                android:fontFamily="@font/gabriola"
+                android:textSize="32sp"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/frmNo"
+            android:layout_marginEnd="75dp"
+            android:layout_marginTop="75dp">
+
+            <Button
+                android:id="@+id/githint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedbttn"
+                android:text="getHint" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/frmOk"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="75dp">
+
+
+            <Button
+                android:id="@+id/backToCode"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedbttn"
+                android:text="Back to code" />
+        </FrameLayout>
+    </FrameLayout>
+

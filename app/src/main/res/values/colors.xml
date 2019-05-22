@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AB7311</color>
+    <color name="colorPrimaryDark">#AB7311</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textcolor"> #AB7311</color>
+    <color name="DarkTextColor">#6B4701</color>
+    <color name="buttoncolor">#FFC001</color>
+    <color name="pinky">#FFAC87</color>
+    <color name="LightBlue">#C4EDFF</color>
+    <color name="LightTextColor">#F5F5F5</color>
+    <color name="pinko">#EE8080</color>
+    <color name="pinkoyia">#D03161</color>
+</resources>

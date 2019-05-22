@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_about_scrolling">AboutScrollingActivity</string>
+    <string name="large_text">
+        "About this App :\n\n"
+
+        "Sparkle Code is an android application created by a collage student which contain series"
+        "of question in order to get enough knowledge on programming in general and specially python language.\n"
+        "sparkle Code is for the young children from 6 to 14 years old, every question works by re-arrange"
+        "block of code in order to solve the problem ,The main goal of this learning method is to get more closer to the child. \n"
+        "every question also contain text to clarify of what is the problem taking about?"
+        "With 3 point for each question, this will courage the kid to solve it and get more and more point which will pased on "
+        "a score and shows at the end of every level the kid finish. "
+        "A simple log in that require only email with password will make the child knows how many points has been collected,
+        each time the user arrange the code in wrong order it will show them an error message, if the user gets any hint,
+        point counter will decrease automatically.\n\n"
+
+
+        "About the Developer.\n"
+        "This application considered as a graduation project,the developer is a student in Al-Nahrain University  \n\n "
+        "email : shamsnaji4@gmail.com"
+
+    </string>
+    <string name="hint1_text">This is how we arrange the code, because in python the code will implemented
+        line by line, and this also true in the print method</string>
+    <string name="hint2_text">This is how we arrange the code in the right way because of the input  method,
+        it will wait for an input from the user,and then the print method bring the output result to the screen</string>
+    <string name="hint5_text">Settings</string>
+    <string name="q8_output">12,"Hello",3.4</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="ooops_this_is_a_wrong_answer_and_might_cause_you_a_compiler_error">
+        Ooops!! This is a wrong answer and Might Cause you a compiler error!</string>
+    <string name="let_s_go_to_the_next_level">Let\'s go to the next level !</string>
+    <string name="congratulation_you_passed_the_first_level_successfully">
+        Congratulation!, You passed the First level successfully !</string>
+    <string name="re_arrange_to_the_bottom_to_print_code_word">
+        Re-Arrange to the bottom to print CODE word:</string>
+    <string name="re_arrange_the_code_to_print_yes_if_x">
+        Re-Arrange the code to print Yes, if x input is greater than y input:</string>
+    <string name="q_2_of_3">Q 2 of 3</string>
+    <string name="score">Score :</string>
+    <string name="check_your_answer">Check your Answer</string>
+    <string name="in_programming_an_array_is_a_collection_of_elements_of_the_same_type">
+        In programming, an array is a collection of elements of the same type.
+    to define any array in python :you need to import library called arr</string>
+    <string name ="hint9">An array is a data structure that stores values of same data type.
+        In Python, this is the main difference between arrays and lists.
+        While python lists can contain values corresponding to different data types,
+        arrays in python can only contain values corresponding to same data type.
+        and here is how it work :</string>
+    <string name ="hint5">If statement works here by comparing the two input, and it depends on what the user enter.\n and for more information,see help.</string>
+    <string name="for_question">
+        To loop through a set of code a specified number of times, we can use the range() function.
+        The range() function returns a sequence of numbers, starting from 0 by default, and ends at a specified number</string>
+    <string name="a_list_is_created">In Python programming, a list is created by placing all the items (elements)
+        inside a square bracket [ ], separated by commas. It can have any number of items and they may be of different types
+        (integer, float, string etc.).</string>
+    <string name="else_explain">An else statement contains the block of code that executes if the conditional expression in the
+        if statement resolves to 0 or a FALSE value. The else statement is an optional statement and there could be at most only one
+        else statement following if.</string>
+    <string name="for_x_in_range_1_6">for x in range(1,6):</string>
+</resources>
