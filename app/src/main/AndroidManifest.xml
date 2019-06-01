@@ -3,11 +3,12 @@
     package="com.example.shms.trying">
     <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/star_icon"
-        android:label="@string/app_name"
+        android:label="Sparkle Code"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".finish"></activity>
@@ -25,13 +26,8 @@
         <activity
             android:name=".Nav"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".q1" />
+        <activity android:name=".q1" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".q2" />
         <activity android:name=".q3" />
         <activity android:name=".q4" />
@@ -48,7 +44,11 @@
         <activity
             android:name=".first"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

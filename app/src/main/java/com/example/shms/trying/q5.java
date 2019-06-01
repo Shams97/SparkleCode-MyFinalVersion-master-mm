@@ -154,12 +154,13 @@ public class q5 extends AppCompatActivity {
             }
         });
 
+        points.setText(String.valueOf(count));
 
     }
 
     public  boolean checking(){
         boolean flag = false;
-        int topPos[] = new int[4];
+        int[] topPos = new int[4];
         topPos[0] = bigliner.indexOfChild(var1);
         topPos[1] = bigliner.indexOfChild(var2);
         topPos[2] = bigliner.indexOfChild(statement);
@@ -203,7 +204,6 @@ public class q5 extends AppCompatActivity {
                 dialog.cancel();
             }
         });
-
         dialog.show();
     }
 

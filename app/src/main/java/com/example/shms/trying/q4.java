@@ -169,12 +169,12 @@ public class q4 extends AppCompatActivity {
         });
 //    points.setText(String.valueOf(count));
     }
-    private String TAG = q4.class.getSimpleName();
 
   public  boolean checking(){
         boolean flag = false;
-      int topPos[] = new int[4];
-                topPos[0] = bigliner.indexOfChild(red_c);
+      int[] topPos;
+      topPos = new int[4];
+      topPos[0] = bigliner.indexOfChild(red_c);
                 topPos[1] = bigliner.indexOfChild(blue_o);
                 topPos[2] = bigliner.indexOfChild(green_d);
                 topPos[3] = bigliner.indexOfChild(red_e);

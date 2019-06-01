@@ -20,7 +20,6 @@ Button l1,l2,l3;
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         l1 = (Button) view.findViewById(R.id.L1);
         l2 = (Button) view.findViewById(R.id.L2);
         l3 = (Button) view.findViewById(R.id.L3);
@@ -43,25 +42,11 @@ Button l1,l2,l3;
 
                 } else {
                     l2.setEnabled(false);
-
                 }
             }
         });
 
         l3.setEnabled(false);
-//        l3.setBackground(Drawable.createFromPath("@drawable/three__"));
-
-
-//        l3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent =new Intent(getActivity(), q5.class);
-//                startActivity(intent);
-//            }
-//        });
-//    }
-//
-
     }
 
 }

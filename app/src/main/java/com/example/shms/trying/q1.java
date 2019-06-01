@@ -1,9 +1,11 @@
 package com.example.shms.trying;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -35,22 +37,21 @@ public class q1 extends AppCompatActivity {
     private FirebaseFirestore db;
     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_q1);
 
         db = FirebaseFirestore.getInstance();
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         //Initialization of all the content in layout
-            var1 =(Button)findViewById(R.id.hello);
-            var2 =(Button)findViewById(R.id.world);
-            bigliner=(LinearLayout)findViewById(R.id.bigliner);
-            points=(TextView)findViewById(R.id.points);
-            check=(Button)findViewById(R.id.checkquestion);
-//         drawer = findViewById(R.id.drawer_layout);
+            var1 =findViewById(R.id.hello);
+            var2 =findViewById(R.id.world);
+            bigliner=findViewById(R.id.bigliner);
+            points=findViewById(R.id.points);
+            check=findViewById(R.id.checkquestion);
 
             //set the text of the question
             var1.setText("print('Hello')");
@@ -148,6 +149,7 @@ public class q1 extends AppCompatActivity {
 
             return flag;
         }
+
         public void showDialog(Activity activity) {
             final Dialog dialog = new Dialog(activity);
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -180,20 +182,8 @@ public class q1 extends AppCompatActivity {
 
             dialog.show();
         }
-//        public void updateScore(){
-//            if (user != null) {
-//                // User is signed in
-//                scores.put("score_key", String.valueOf(count));
-//                db.collection("scores").document("score").set(scores).addOnCompleteListener(new OnCompleteListener<Void>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<Void> task) {
-//                        if(task.isSuccessful())
-//                             count--;
-//                        else
-//                            Log.d(LOGCAT,"erorr in singing the score value to the db ");
-//                    }
-//                });
-//            }
+
+
 }
 
 
